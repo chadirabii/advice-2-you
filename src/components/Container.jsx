@@ -33,17 +33,17 @@ export default function Container() {
   return (
     <div className="flex ">
       <div className="bg-darkGray drop-shadow-2xl px-[50px] pt-[20px] relative  rounded-lg shadow-lg flex flex-col justify-center items-center text-center">
-        <p className="text-neon text-[10px]">ADVICE #{id}</p>
-        <q className="text-primary text-lg py-[15px] ">{advice}</q>
+        <p className="text-neon text-[15px]">ADVICE #{id}</p>
+        <q className="text-primary text-[25px] py-[17px] font-bold ">{advice}</q>
         
-        <div className="flex justify-center items-center pb-6">
+        <div className="flex justify-center items-center pb-3">
           <p className="text-lightGray ">-------------------</p>
             <BiPause className="text-primary mx-2 text-xl"/>
             <p className="text-lightGray ">-------------------</p>
         </div>
         <button
           onClick={getAdvice}
-          className="bg-neon text-darkGray text-[25px] px-2 py-2 rounded-full inline-block -mb-[20px] "
+          className="bg-neon text-darkGray text-[30px] px-2 py-2 rounded-full inline-block -mb-[20px] "
         >
           <BiRefresh />
         </button>
