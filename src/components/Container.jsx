@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { BiRefresh } from "react-icons/bi";
 import divWeb from "../assets/divWeb.svg";
 import divMob from "../assets/divMob.svg";
+import "./btn.css";
 
 export default function Container() {
   const [advice, setAdvice] = useState(null);
@@ -34,7 +35,7 @@ export default function Container() {
 
   return (
     <div className="flex items-center ">
-      <div className="bg-darkGray drop-shadow-2xl px-[50px] mx-auto pt-[20px] w-[calc(100%_-_2rem)] relative max-w-xl rounded-s shadow-2xl flex flex-col justify-center items-center text-center">
+      <div className="bg-darkGray drop-shadow-2xl px-[50px] mx-auto pt-[20px] w-[calc(100%_-_2rem)]  max-w-xl rounded-s shadow-2xl flex flex-col justify-center items-center text-center">
         <p className="text-neon text-[15px]">ADVICE #{id}</p>
         <q className="text-primary text-[25px] py-[17px] font-bold ">
           {advice}
@@ -47,6 +48,7 @@ export default function Container() {
         <button
           onClick={getAdvice}
           className="bg-neon text-darkGray text-[30px] shadow-xl px-2 py-2 rounded-full inline-block -mb-[20px] "
+          id="btn"
         >
           <BiRefresh />
         </button>

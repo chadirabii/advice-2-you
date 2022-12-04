@@ -1,0 +1,5 @@
+button:hover {
+  -webkit-box-shadow: 0px 0px 37px 1px rgba(82, 255, 169, 0.9);
+  -moz-box-shadow: 0px 0px 37px 1px rgba(82, 255, 169, 0.9);
+  box-shadow: 0px 0px 37px 1px rgba(82, 255, 169, 0.9);
+}
