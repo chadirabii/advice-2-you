@@ -32,9 +32,10 @@ export default function Container() {
 
   return (
     <div className="flex ">
-      <div className="bg-darkGray drop-shadow-2xl px-[50px] pt-[20px]  rounded-lg shadow-lg flex flex-col justify-center items-center text-center static">
+      <div className="bg-darkGray drop-shadow-2xl px-[50px] pt-[20px] relative  rounded-lg shadow-lg flex flex-col justify-center items-center text-center">
         <p className="text-neon text-[10px]">ADVICE #{id}</p>
-        <p className="text-primary text-lg py-[15px] ">{advice}</p>
+        <q className="text-primary text-lg py-[15px] ">{advice}</q>
+        
         <div className="flex justify-center items-center pb-6">
           <p className="text-lightGray ">-------------------</p>
             <BiPause className="text-primary mx-2 text-xl"/>
@@ -42,7 +43,7 @@ export default function Container() {
         </div>
         <button
           onClick={getAdvice}
-          className="bg-neon text-darkGray text-[25px] px-2 py-2 rounded-full inline-block absolute top-[120px] "
+          className="bg-neon text-darkGray text-[25px] px-2 py-2 rounded-full inline-block -mb-[20px] "
         >
           <BiRefresh />
         </button>
