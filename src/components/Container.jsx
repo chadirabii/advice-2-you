@@ -32,7 +32,7 @@ export default function Container() {
 
   return (
     <div className="flex ">
-      <div className="bg-darkGray drop-shadow-2xl px-[50px] pt-[20px] relative  rounded-lg shadow-lg flex flex-col justify-center items-center text-center">
+      <div className="bg-darkGray drop-shadow-2xl px-[50px] pt-[20px] relative max-w-lg rounded-lg shadow-lg flex flex-col justify-center items-center text-center">
         <p className="text-neon text-[15px]">ADVICE #{id}</p>
         <q className="text-primary text-[25px] py-[17px] font-bold ">{advice}</q>
         
