@@ -40,8 +40,10 @@ Start the server
   yarn run dev
 ```
 
-  ## Author : Chadi Rabii
-- [Github](https://github.com/chadirabii)
-- [Facebook](https://www.facebook.com/chadi.rabii.3)
-- [Instagram](https://www.instagram.com/chadi_rb/)
+## Author Chadi Rabii
 
+- Github - [Github](https://github.com/chadirabii)
+- LinkedIn - [Chadi Rabii](www.linkedin.com/in/chadirabii)
+- Twitter - [@chadi_rabii](https://twitter.com/chadi_rabii)
+- Facebook - [Facebook](https://www.facebook.com/chadi.rabii.3)
+- Instagram - [Instagram](https://www.instagram.com/chadi_rb/)
