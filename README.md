@@ -40,7 +40,7 @@ Start the server
   yarn run dev
 ```
 
-## Author Chadi Rabii
+## Author : Chadi Rabii
 
 - Github - [Github](https://github.com/chadirabii)
 - LinkedIn - [Chadi Rabii](www.linkedin.com/in/chadirabii)
