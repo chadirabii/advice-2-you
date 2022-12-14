@@ -1,9 +1,10 @@
 # Advice 2 u - FrontendMentor challenge
 
 Advice generator app from [FrontendMentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
-## Tech Stack
 
-**Client:** ReactJS, TailwindCSS
+## Built with
+- [ReactJs](https://reactjs.org/) - JS library
+- [NativeWind](https://www.nativewind.dev) - Css Framework
 
 
 ## Screenshots
