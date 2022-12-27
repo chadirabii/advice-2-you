@@ -4,7 +4,7 @@ Advice generator app from [FrontendMentor](https://www.frontendmentor.io/challen
 
 ## Built with
 - [ReactJs](https://reactjs.org/) - JS library
-- [NativeWind](https://www.nativewind.dev) - Css Framework
+- [Tailwindcss](https://tailwindcss.com) - Css Framework
 
 
 ## Screenshots
