@@ -1,6 +1,8 @@
 # Advice 2 u - FrontendMentor challenge
 
-Advice generator app from [FrontendMentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
+Advice generator app from 
+Advice Generator app from [FrontendMentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db) is a dynamic web application powered by a public API. This project combines the latest web technologies to deliver a sleek and responsive user experience. 
+Dive into the world of inspirational advice with just a click!
 
 ## Built with
 - [ReactJs](https://reactjs.org/) - JS library
